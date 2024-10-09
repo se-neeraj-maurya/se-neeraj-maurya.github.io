@@ -1,0 +1,1 @@
+import{l as t,u}from"./index.b415cf6e.js";function s(){const o=t(),r=u();return{BuyProduct:e=>{if(r.isLoggedIn){o.push({name:"direct-order",params:{id:e.id}});return}r.loginRedirectRoute={name:"direct-order",params:{id:e.id}},r.loginDialog=!0}}}export{s as u};
